@@ -2,6 +2,7 @@
 #### All react projects are done by [Vite](https://vitejs.dev/) and [Tailwind](https://tailwindcss.com/docs/guides/create-react-app)
 
 ``Vite:`` npm create vite@latest
+
 ``Tailwind:`` 
 1. npm install -D tailwindcss 
 2. npx tailwindcss init, 
