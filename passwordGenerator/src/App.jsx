@@ -10,8 +10,6 @@ function App() {
   const passwordRef = useRef(null);
 
 
-
-
   const passwordGenerator = useCallback(() => {
 
     let pass = "";
@@ -37,7 +35,6 @@ function App() {
   useEffect(() => {
     passwordGenerator();
   }, [length, numberAllowed, charAllowed, passwordGenerator])
-  
 
   return (
     <>
